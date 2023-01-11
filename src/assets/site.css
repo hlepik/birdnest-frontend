@@ -1,0 +1,30 @@
+.tableHeader  {
+    background-color: cadetblue;
+}
+
+.header {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 2rem
+}
+.mainTable {
+    margin-bottom: 5rem;
+}
+.styledCell{
+    display:flex;
+    flex-direction: row;
+}
+.styledArrows {
+    margin-top: 0.5rem;
+}
+h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5rem;
+}
+.arrowUp {
+    margin-bottom: -0.5rem;
+}
+.arrowDown {
+    margin-top: -0.5rem;
+}

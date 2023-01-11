@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+    birdnest-hlepik:
+        container_name: "birdnesthlepik"
+        build:
+            context: .
+            dockerfile: Dockerfile-front
+        restart: on-failure
+        ports:
+            # this maps external:internal, but the docker created network between images is connected directly - using the original ports
+            # so use external for connecting with admin tools - docker will forward connection to internal port
+            - "90:90"
