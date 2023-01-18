@@ -10,4 +10,4 @@ services:
         ports:
             # this maps external:internal, but the docker created network between images is connected directly - using the original ports
             # so use external for connecting with admin tools - docker will forward connection to internal port
-            - "90:90"
+            - "80:80"

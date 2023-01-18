@@ -5,4 +5,7 @@ export interface IPilot {
     phoneNumber: string;
     email: string;
     distance: number;
+    time: Date;
+    positionX: number;
+    positionY: number;
 }

@@ -1,2 +1,2 @@
-export const ApiBaseUrl = "http://localhost:18080/api/v1/";
+export const ApiBaseUrl = "https://birdnest-hlepik.azurewebsites.net/api/v1/";
 
